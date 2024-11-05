@@ -1,0 +1,25 @@
+body {
+  background-color: #FBC79F;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+}
+
+.box {
+  background-color: palegoldenrod;
+  border: 6px solid yellow;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.gray {
+  background-color: #D3D3D3;
+  border: 6px dotted #A9A9A9;
+}
