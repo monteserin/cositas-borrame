@@ -1,130 +1,33 @@
-<!DOCTYPE html>
-<html lang="en">
+<style>
+  rt,
+  rt span {
+    visibility: hidden;
+  }
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <style>
-    .container {
-      background: url(https://pablomonteserin.com/wp-content/uploads/2020/06/panteon.jpg) red;
-      width: 722px;
-      height: 480px;
-      margin: auto;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      gap: 80px;
-      padding-top: 90px;
-      box-sizing: border-box;
-    }
+  rt:hover span {
+    visibility: visible;
+  }
 
-    .col {
-      width: 60px;
-      background-color: yellow;
-      height: 180px;
-      border: 1px solid black;
-      overflow: auto;
-    }
-  </style>
-</head>
+  ruby:hover rt {
+    visibility: visible;
+  }
 
-<body>
-  <div class="container">
-    <div class="col">
-      hola
-      hola
-      hola
-      hola
-      hola
-      hola
-      hola
-      hola
-      hola
-      hola
-      hola
-      hola
-      hola
-      hola
-      hola
-      hola
-      hola
-      hola
-      hola
-      hola
-      hola
-      hola
-      hola
-      hola
-      hola
-      hola
-      hola
-      hola
-      hola
-      hola
-    </div>
-    <div class="col">hola
-      hola
-      hola
-      hola
-      hola
-      hola
-      hola
-      hola
-      hola
-      hola
-      hola
-      hola
-      hola
-      hola
-      hola
-      hola
-      hola
-      hola
-      hola
-      hola
-      hola
-      hola
-      hola
-      hola
-      hola
-      hola
-      hola
-      hola
-      hola
-      hola</div>
-    <div class="col">hola
-      hola
-      hola
-      hola
-      hola
-      hola
-      hola
-      hola
-      hola
-      hola
-      hola
-      hola
-      hola
-      hola
-      hola
-      hola
-      hola
-      hola
-      hola
-      hola
-      hola
-      hola
-      hola
-      hola
-      hola
-      hola
-      hola
-      hola
-      hola
-      hola</div>
+  rt {
+    position: relative;
+  }
 
-  </div>
-</body>
+  rt span {
+    position: absolute;
+    left: 0;
+    top: -0.5rem;
+  }
+</style>
 
-</html>
+
+<p style="margin-top: 50px;">
+  <ruby>私<rt>わたし<span>Yo</span></rt></ruby>
+  の
+  <ruby>名前<rt>なまえ<span>nombre</span></rt></ruby>
+  は パブロ です
+
+</p>
