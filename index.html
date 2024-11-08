@@ -1,33 +1,31 @@
-<style>
-  rt,
-  rt span {
-    visibility: hidden;
-  }
+<!DOCTYPE html>
+<html lang="en">
 
-  rt:hover span {
-    visibility: visible;
-  }
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <!-- <link rel="stylesheet" href="./style.css"> -->
 
-  ruby:hover rt {
-    visibility: visible;
-  }
+  <style>
+    @font-face {
+      font-family: miFuente;
+      src:
+        url(https://pablomonteserin.com/res/html5/ex/carga-fuente/fuente.ttf);
+    }
 
-  rt {
-    position: relative;
-  }
+    h1.load-font {
+      font-family: miFuente !important;
+    }
+  </style>
+</head>
 
-  rt span {
-    position: absolute;
-    left: 0;
-    top: -0.5rem;
-  }
-</style>
+<body>
 
 
-<p style="margin-top: 50px;">
-  <ruby>私<rt>わたし<span>Yo</span></rt></ruby>
-  の
-  <ruby>名前<rt>なまえ<span>nombre</span></rt></ruby>
-  は パブロ です
+  <h1 class="load-font">hola</h1>
 
-</p>
+
+</body>
+
+</html>
